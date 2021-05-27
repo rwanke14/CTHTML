@@ -223,57 +223,15 @@
     height: 2644px;
     z-index: 87;
   }
-  ._01_ {
-    font-size: 11.264px;
-    font-family: "Oswald";
-    color: rgba(65, 79, 107, 0.502);
-    font-weight: bold;
-    line-height: 1.2;
-    text-align: left;
-    -moz-transform: matrix( 12.0413317551377,0,0,12.0413317551377,0,0);
-    -webkit-transform: matrix( 12.0413317551377,0,0,12.0413317551377,0,0);
-    -ms-transform: matrix( 12.0413317551377,0,0,12.0413317551377,0,0);
-    position: absolute;
-    left: 391.612px;
-    top: 1013.242px;
-    z-index: 86;
-  }
-  ._HISTORY {
-    font-size: 11.264px;
-    font-family: "Oswald";
-    color: rgb(65, 79, 107);
-    font-weight: bold;
-    line-height: 1.2;
-    text-align: left;
-    -moz-transform: matrix( 2.84103421435448,0,0,2.84103421435448,0,0);
-    -webkit-transform: matrix( 2.84103421435448,0,0,2.84103421435448,0,0);
-    -ms-transform: matrix( 2.84103421435448,0,0,2.84103421435448,0,0);
-    position: absolute;
-    left: 481.832px;
-    top: 1031.242px;
-    z-index: 85;
-  }
-  .Lorem_ipsum_dolor_sit_amet__consectetur_adipisc {
-    font-size: 16px;
-    font-family: "Lato";
-    color: rgb(0, 0, 0);
-    line-height: 1.5;
-    text-align: left;
-    position: absolute;
-    left: 393.312px;
-    top: 1110.34px;
-    width: 813px;
-    height: 63px;
-    z-index: 84;
-  }
 
 
   /* Carousel CSS */
 
 
 
-  .Carousel {
+  .carousel, .slide {
     /* position: absolute; */
+    margin-top: 5%;
     background-color: rgb(65, 79, 107);
     position: absolute;
     left: 0px;
@@ -301,9 +259,9 @@
 
 
 
-  .image {
+  #image {
     background-color: rgb(99, 118, 157);
-    /* position: fixed; */
+    /* position: absolute; */
     left: 805px;
     top: 1634px;
     width: 220px;
@@ -401,8 +359,9 @@
     z-index: 40;
   } */
   .numTitle2 {
+      margin-top: 5%;
     font-size: 11.264px;
-    font-family: "Oswald";
+    font-family: 'Oswald', sans-serif;
     color: rgba(65, 79, 107, 0.502);
     font-weight: bold;
     line-height: 1.2;
@@ -416,8 +375,9 @@
     z-index: 39;
   }
   .climb {
+    margin-top: 5%;
     font-size: 11.264px;
-    font-family: "Oswald";
+    font-family: 'Oswald', sans-serif;
     color: rgb(65, 79, 107);
     font-weight: bold;
     line-height: 1.2;
@@ -431,8 +391,9 @@
     z-index: 38;
   }
   .paragraphText2 {
+    margin-top: 5%;
     font-size: 16px;
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
     color: rgb(0, 0, 0);
     line-height: 1.5;
     text-align: left;
@@ -444,8 +405,207 @@
     z-index: 37;
   }
   
- 
+  /* Mountain Schedule Section CSS */
+.scheduleSection{
+    /* text-align: center; */
+    width: 1600px;
+    height: 920px;
+    
+}
+
+.mountain1:hover {
+    font-size: 28px;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(65, 79, 107);
+    background-color: rgb(176, 180, 190);;
+    font-weight: bold;
+    text-decoration: underline;
+    line-height: 1.2;
+    text-align: left;
+    -moz-transform: matrix( 2.84103421435448,0,0,2.84103421435448,0,0);
+    -webkit-transform: matrix( 2.84103421435448,0,0,2.84103421435448,0,0);
+    -ms-transform: matrix( 2.84103421435448,0,0,2.84103421435448,0,0);
+    /* position: absolute; */
+    left: 370.12px;
+    top: 2000.577px;
+    z-index: 34;
+    margin-left: 20%;
+  }
+  
+.mountain1{
+    margin-left: 20%;
+}
+
+  .mountain2, .mountain1{
+    
+    font-size: 28px;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(176, 180, 190);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+    -moz-transform: matrix( 2.84103421435448,0,0,2.84103421435448,0,0);
+    -webkit-transform: matrix( 2.84103421435448,0,0,2.84103421435448,0,0);
+    -ms-transform: matrix( 2.84103421435448,0,0,2.84103421435448,0,0);
+    /* position: absolute; */
+    left: 515.017px;
+    top: 1998.776px;
+    z-index: 33;
+  }
+
+  .mountain2{
+      margin-left: 2%;
+  }
+
+  .mountain2:hover{
+    font-size: 28px;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(65, 79, 107);
+    background-color: rgb(176, 180, 190);;
+    font-weight: bold;
+    text-decoration: underline;
+    line-height: 1.2;
+    text-align: left;
+    -moz-transform: matrix( 2.84103421435448,0,0,2.84103421435448,0,0);
+    -webkit-transform: matrix( 2.84103421435448,0,0,2.84103421435448,0,0);
+    -ms-transform: matrix( 2.84103421435448,0,0,2.84103421435448,0,0);
+    /* position: absolute; */
+    left: 370.12px;
+    top: 2000.577px;
+    z-index: 34;
+  }
+  
+  
+  #mtnSelect{
+      margin-top: 5%;
+    background-color: rgb(65, 79, 107);
+    position: absolute;
+    left: -5px;
+    top: 1984px;
+    width: 1615px;
+    height: 40px;
+    z-index: 31;
+  }
+
+  /* Tab Content CSS */
+  
+  .mtn1Content {
+    /* position: absolute; */
+    left: 0px;
+    top: 0px;
+    width: 1600px;
+    height: 920px;
+    z-index: 28;
+  }
+  .mountainPhotos {
+    /* position: absolute; */
+    left: 0px;
+    top: 0px;
+    width: 1600px;
+    height: 920px;
+    z-index: 27;
+  }
+  .schedule {
+    margin-left: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 11.264px;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(65, 79, 107);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+    -moz-transform: matrix( 2.84103421435448,0,0,2.84103421435448,0,0);
+    -webkit-transform: matrix( 2.84103421435448,0,0,2.84103421435448,0,0);
+    -ms-transform: matrix( 2.84103421435448,0,0,2.84103421435448,0,0);
+    /* position: absolute; */
+    left: 432.243px;
+    top: 2154.242px;
+    z-index: 26;
+  }
+  .dates {
+    margin-top: 10%;
+    margin-left: 50%;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 1.5;
+    /* text-align: left; */
+    /* position: absolute; */
+    left: 391.078px;
+    top: 2216.34px;
+    z-index: 25;
+  }
+  .textBox1 {
+      margin-top: 5%;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.702;
+    position: absolute;
+    left: 351px;
+    top: 2125px;
+    width: 352px;
+    height: 229px;
+    z-index: 24;
+  }
+
+
+  /*  Footer CSS */
+  
+  .Footer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1600px;
+    height: 2644px;
+    z-index: 9;
+  }
 
   
+  .Logo {
+    /* position: absolute; */
+    left: 0px;
+    top: 0px;
+    width: 40px;
+    height: 40px;
+    z-index: 8;
+  }
+
+  .LAMtns {
+    font-size: 36px;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(99, 118, 157);
+    text-transform: uppercase;
+    line-height: 1.079;
+    text-align: left;
+    -moz-transform: matrix( 1.57940087361327,0,0,1.59346119587011,0,0);
+    -webkit-transform: matrix( 1.57940087361327,0,0,1.59346119587011,0,0);
+    -ms-transform: matrix( 1.57940087361327,0,0,1.59346119587011,0,0);
+    /* position: absolute; */
+    left: 236.952px;
+    top: 2485.537px;
+    z-index: 5;
+  }
+  .copyright {
+    font-size: 12px;
+    font-family: "Lato";
+    color: rgb(99, 118, 157);
+    font-style: italic;
+    text-transform: uppercase;
+    line-height: 1.667;
+    /* position: absolute; */
+    left: 840.609px;
+    top: 2472.498px;
+    z-index: 3;
+    float: right;
+  }
+  .footer {
+    background-color: rgb(65, 79, 107);
+   
+    left: -176px;
+    top: 2448px;
+    width: 1600px;
+    height: 74px;
+    z-index: 2;
+  }
   
   
